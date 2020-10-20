@@ -1,0 +1,107 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: darkseagreen
+  }
+
+  nav {
+    color: black
+    margin: 0;
+    padding: 0px 0;
+    text-align: right;
+  }
+  
+  nav li {
+    text-align: right;
+    display: inline-block;
+    width: 80px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: left;
+    border: 3px solid green;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    background-image: url("../images/gardenHeader1.jpg");
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    margin: 0px, auto, 0px, auto;
+  }
+  
+  div {
+    font-weight: bold;
+  }
+
+  p, 
+  ul, li, {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px, 20px, 20px, 20px;
+    padding: 20px, 20px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    margin: auto;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  img2 {
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    padding: 100px;
+  }
+
+  .button {
+    position: absolute;
+    text-align: center;
+    border-radius: 4px;
+    color: #000000;
+    display: block;
+    font-weight: 700;
+    width: 200px;
+    padding: 15px;
+    margin: 40px, auto, 40px, auto;
+    background-color: #05A8AA;
+    border: 1px solid blue;
+    padding: 50px;
+    float: left;
+    
+  }
+  
+  .button:hover {
+    background-color: #05A8AA;
+    border: 1px solid #05A8AA;
+    color: #FFF;
+  }
+
+  #goFundMe {
+    position: static;
+    position: absolute;
+    background-color:  yellow;
+    padding: 15px;
+    border: 1px solid green;
+    border-radius: 10px;
+  }
+
+  .welcome {
+    display: inline-block;
+  }
